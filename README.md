@@ -16,8 +16,11 @@
 ## 目录
 
 - [说明](#说明)
+- [ST7789 系列版本对照](#st7789-系列版本对照)
 - [版本一览](#版本一览)
 - [YDP169HT006-V1](#ydp169ht006-v1)
+- [YDP169H001-V3](#ydp169h001-v3)
+- [YDP169HB001-P8](#ydp169hb001-p8)
 - [购买链接](#购买链接)
 - [技术支持](#技术支持)
 
@@ -25,11 +28,22 @@
 
 ## 说明
 
-本仓库收录 **1.69 寸 240×280 TFT（SPI · ST7789）** 显示模组资料。
+本仓库收录 **1.69 寸 240×280 TFT（SPI · ST7789）** 显示模组资料。硅片可为 ST7789 / ST7789V3（亦称 ST7789P3）等系列变体，对外通称 **ST7789**。
 
 **根目录 README 为导航页**。下表可快速浏览各版本；点击「完整资料」进入 `versions/` 下对应**料号文件夹**（产品页、规格书、示例均在该目录内）。
 
 规格标识（仓库名）：`1.69-tft-240x280-spi-st7789`
+
+---
+
+## ST7789 系列版本对照
+
+<p align="center"><img alt="ST7789 系列版本对照（V2 / P3 / W3 等）" src="./docs/ST7789-variants-comparison.jpg" width="720" /></p>
+
+<p align="center"><img alt="ST7789 系列版本说明（配套）" src="./docs/ST7789-variants-notes.jpg" width="720" /></p>
+
+- 对照表：[`docs/ST7789-variants-comparison.jpg`](./docs/ST7789-variants-comparison.jpg)
+- 配套说明：[`docs/ST7789-variants-notes.jpg`](./docs/ST7789-variants-notes.jpg)
 
 ---
 
@@ -38,6 +52,8 @@
 | 版本 | 宣传图 | 简介 | 完整资料 |
 | ---- | ------ | ---- | -------- |
 | YDP169HT006-V1 | <img alt="YDP169HT006-V1" src="./versions/YDP169HT006-V1/images/product.png" width="120" /> | [简介](#ydp169ht006-v1) | [完整资料](./versions/YDP169HT006-V1/) |
+| YDP169H001-V3 | <img alt="YDP169H001-V3" src="./versions/YDP169H001-V3/images/product.png" width="120" /> | [简介](#ydp169h001-v3) | [完整资料](./versions/YDP169H001-V3/) |
+| YDP169HB001-P8 | <img alt="YDP169HB001-P8" src="./versions/YDP169HB001-P8/images/product.png" width="120" /> | [简介](#ydp169hb001-p8) | [完整资料](./versions/YDP169HB001-P8/) |
 
 ---
 
@@ -45,9 +61,29 @@
 
 <p align="center"><img alt="YDP169HT006-V1" src="./versions/YDP169HT006-V1/images/product.png" width="320" /></p>
 
-**说明：** 带触摸（CST816）。
+**说明：** 带触摸（CST816）；硅片资料见 ST7789P3。
 
 完整产品页、规格书与示例：[versions/YDP169HT006-V1/](./versions/YDP169HT006-V1/)
+
+---
+
+## YDP169H001-V3
+
+<p align="center"><img alt="YDP169H001-V3" src="./versions/YDP169H001-V3/images/product.png" width="320" /></p>
+
+**说明：** 单屏；硅片为 ST7789V3。
+
+完整产品页、规格书与示例：[versions/YDP169H001-V3/](./versions/YDP169H001-V3/)
+
+---
+
+## YDP169HB001-P8
+
+<p align="center"><img alt="YDP169HB001-P8" src="./versions/YDP169HB001-P8/images/product.png" width="320" /></p>
+
+**说明：** 模组（无触摸），所用单屏型号为 YDP169H001-V3；硅片为 ST7789V3。
+
+完整产品页、规格书与示例：[versions/YDP169HB001-P8/](./versions/YDP169HB001-P8/)
 
 ---
 

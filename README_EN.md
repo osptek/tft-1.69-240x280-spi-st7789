@@ -16,8 +16,11 @@
 ## Contents
 
 - [About](#about)
+- [ST7789 family variant notes](#st7789-family-variant-notes)
 - [Versions](#versions)
 - [YDP169HT006-V1](#ydp169ht006-v1)
+- [YDP169H001-V3](#ydp169h001-v3)
+- [YDP169HB001-P8](#ydp169hb001-p8)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
 
@@ -25,11 +28,22 @@
 
 ## About
 
-This repository holds materials for the **1.69″ 240×280 TFT (SPI · ST7789)** module family.
+This repository holds materials for the **1.69″ 240×280 TFT (SPI · ST7789)** module family. Silicon may be ST7789 / ST7789V3 (also called ST7789P3); the public family name remains **ST7789**.
 
 The **root README is the navigation page**. Use the table below for a quick scan; open **Full docs** to enter that **part-number folder** under `versions/` (product page, datasheets, and examples live there).
 
 Repo id: `1.69-tft-240x280-spi-st7789`
+
+---
+
+## ST7789 family variant notes
+
+<p align="center"><img alt="ST7789 family variant comparison (V2 / P3 / W3, etc.)" src="./docs/ST7789-variants-comparison.jpg" width="720" /></p>
+
+<p align="center"><img alt="ST7789 family variant notes (companion)" src="./docs/ST7789-variants-notes.jpg" width="720" /></p>
+
+- Comparison: [`docs/ST7789-variants-comparison.jpg`](./docs/ST7789-variants-comparison.jpg)
+- Companion notes: [`docs/ST7789-variants-notes.jpg`](./docs/ST7789-variants-notes.jpg)
 
 ---
 
@@ -38,6 +52,8 @@ Repo id: `1.69-tft-240x280-spi-st7789`
 | Version | Image | Summary | Full docs |
 | ------- | ----- | ------- | --------- |
 | YDP169HT006-V1 | <img alt="YDP169HT006-V1" src="./versions/YDP169HT006-V1/images/product.png" width="120" /> | [Summary](#ydp169ht006-v1) | [Full docs](./versions/YDP169HT006-V1/) |
+| YDP169H001-V3 | <img alt="YDP169H001-V3" src="./versions/YDP169H001-V3/images/product.png" width="120" /> | [Summary](#ydp169h001-v3) | [Full docs](./versions/YDP169H001-V3/) |
+| YDP169HB001-P8 | <img alt="YDP169HB001-P8" src="./versions/YDP169HB001-P8/images/product.png" width="120" /> | [Summary](#ydp169hb001-p8) | [Full docs](./versions/YDP169HB001-P8/) |
 
 ---
 
@@ -45,9 +61,29 @@ Repo id: `1.69-tft-240x280-spi-st7789`
 
 <p align="center"><img alt="YDP169HT006-V1" src="./versions/YDP169HT006-V1/images/product.png" width="320" /></p>
 
-**Notes:** With touch (CST816).
+**Notes:** With touch (CST816); silicon docs use ST7789P3.
 
 Full product page, datasheets, and examples: [versions/YDP169HT006-V1/](./versions/YDP169HT006-V1/)
+
+---
+
+## YDP169H001-V3
+
+<p align="center"><img alt="YDP169H001-V3" src="./versions/YDP169H001-V3/images/product.png" width="320" /></p>
+
+**Notes:** Bare panel; silicon is ST7789V3.
+
+Full product page, datasheets, and examples: [versions/YDP169H001-V3/](./versions/YDP169H001-V3/)
+
+---
+
+## YDP169HB001-P8
+
+<p align="center"><img alt="YDP169HB001-P8" src="./versions/YDP169HB001-P8/images/product.png" width="320" /></p>
+
+**Notes:** Module (no touch); panel part is YDP169H001-V3; silicon is ST7789V3.
+
+Full product page, datasheets, and examples: [versions/YDP169HB001-P8/](./versions/YDP169HB001-P8/)
 
 ---
 
