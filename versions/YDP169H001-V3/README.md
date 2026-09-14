@@ -31,7 +31,7 @@
 
 OSPTEK **1.69 寸 240×280 TFT** 屏幕为 **SPI** 彩色面板，显示驱动为 **ST7789V3**。本料号为**单屏**规格。
 
-规格标识（仓库名）：`1.69-tft-240x280-spi-st7789`
+规格标识（仓库名）：`tft-1.69-240x280-spi-st7789`
 
 当前屏幕版本：**YDP169H001-V3**。电气与外形细节以 [`docs/YDP169H001-V3.pdf`](./docs/YDP169H001-V3.pdf) 为准。
 
@@ -51,12 +51,12 @@ OSPTEK **1.69 寸 240×280 TFT** 屏幕为 **SPI** 彩色面板，显示驱动�
 
 | 说明 | 路径 |
 | ---- | ---- |
-| ESP32-S3 · ST7789V3 SPI + LVGL9 | [`examples/esp32s3-1.69-tft-240x280-spi-st7789-bringup/`](./examples/esp32s3-1.69-tft-240x280-spi-st7789-bringup/) |
+| ESP32-S3 · ST7789V3 SPI + LVGL9 | [`examples/esp32s3-tft-1.69-240x280-spi-st7789-bringup/`](./examples/esp32s3-tft-1.69-240x280-spi-st7789-bringup/) |
 
 ## 仓库结构
 
 ```text
-1.69-tft-240x280-spi-st7789/                                # 仓库根（导航见 ../../README.md）
+tft-1.69-240x280-spi-st7789/                                # 仓库根（导航见 ../../README.md）
 └── versions/
     └── YDP169H001-V3/                                # 本料号完整资料
         ├── README.md
@@ -78,7 +78,7 @@ OSPTEK **1.69 寸 240×280 TFT** 屏幕为 **SPI** 彩色面板，显示驱动�
 
 ### 示例工程
 
-- [ESP32-S3 ST7789V3 SPI + LVGL9](./examples/esp32s3-1.69-tft-240x280-spi-st7789-bringup/)
+- [ESP32-S3 ST7789V3 SPI + LVGL9](./examples/esp32s3-tft-1.69-240x280-spi-st7789-bringup/)
 
 ## 购买链接
 

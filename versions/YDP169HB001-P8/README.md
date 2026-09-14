@@ -31,7 +31,7 @@
 
 OSPTEK **1.69 寸 240×280 TFT** 是一款 **SPI** 接口彩色显示模组，显示驱动为 **ST7789V3**。适合手持终端、穿戴与小型竖屏 HMI 等场景。
 
-规格标识（仓库名）：`1.69-tft-240x280-spi-st7789`
+规格标识（仓库名）：`tft-1.69-240x280-spi-st7789`
 
 当前模组版本：**YDP169HB001-P8**。模组细节以 [`docs/YDP169HB001-P8.pdf`](./docs/YDP169HB001-P8.pdf) 为准。所用单屏型号为 **YDP169H001-V3**（规格书见相关资料）。
 
@@ -51,12 +51,12 @@ OSPTEK **1.69 寸 240×280 TFT** 是一款 **SPI** 接口彩色显示模组，�
 
 | 说明 | 路径 |
 | ---- | ---- |
-| ESP32-S3 · ST7789V3 SPI + LVGL9 | [`examples/esp32s3-1.69-tft-240x280-spi-st7789-bringup/`](./examples/esp32s3-1.69-tft-240x280-spi-st7789-bringup/) |
+| ESP32-S3 · ST7789V3 SPI + LVGL9 | [`examples/esp32s3-tft-1.69-240x280-spi-st7789-bringup/`](./examples/esp32s3-tft-1.69-240x280-spi-st7789-bringup/) |
 
 ## 仓库结构
 
 ```text
-1.69-tft-240x280-spi-st7789/                                # 仓库根（导航见 ../../README.md）
+tft-1.69-240x280-spi-st7789/                                # 仓库根（导航见 ../../README.md）
 └── versions/
     └── YDP169HB001-P8/                                # 本料号完整资料
         ├── README.md
@@ -79,7 +79,7 @@ OSPTEK **1.69 寸 240×280 TFT** 是一款 **SPI** 接口彩色显示模组，�
 
 ### 示例工程
 
-- [ESP32-S3 ST7789V3 SPI + LVGL9](./examples/esp32s3-1.69-tft-240x280-spi-st7789-bringup/)
+- [ESP32-S3 ST7789V3 SPI + LVGL9](./examples/esp32s3-tft-1.69-240x280-spi-st7789-bringup/)
 
 ## 购买链接
 

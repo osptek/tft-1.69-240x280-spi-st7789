@@ -31,7 +31,7 @@
 
 OSPTEK **1.69″ 240×280 TFT** is a **SPI** color display module driven by **ST7789V3**. Suited to handheld devices, wearables, and compact portrait HMI.
 
-Spec ID (repository name): `1.69-tft-240x280-spi-st7789`
+Spec ID (repository name): `tft-1.69-240x280-spi-st7789`
 
 Current module version: **YDP169HB001-P8**. Module details follow [`docs/YDP169HB001-P8.pdf`](./docs/YDP169HB001-P8.pdf). Bare panel model is **YDP169H001-V3** (datasheet under Resources).
 
@@ -51,12 +51,12 @@ Current module version: **YDP169HB001-P8**. Module details follow [`docs/YDP169H
 
 | Description | Path |
 | ---- | ---- |
-| ESP32-S3 · ST7789V3 SPI + LVGL9 | [`examples/esp32s3-1.69-tft-240x280-spi-st7789-bringup/`](./examples/esp32s3-1.69-tft-240x280-spi-st7789-bringup/) |
+| ESP32-S3 · ST7789V3 SPI + LVGL9 | [`examples/esp32s3-tft-1.69-240x280-spi-st7789-bringup/`](./examples/esp32s3-tft-1.69-240x280-spi-st7789-bringup/) |
 
 ## Repository layout
 
 ```text
-1.69-tft-240x280-spi-st7789/                                # repo root (nav: ../../README_EN.md)
+tft-1.69-240x280-spi-st7789/                                # repo root (nav: ../../README_EN.md)
 └── versions/
     └── YDP169HB001-P8/                                # full materials for this part number
         ├── README.md
@@ -79,7 +79,7 @@ Current module version: **YDP169HB001-P8**. Module details follow [`docs/YDP169H
 
 ### Samples
 
-- [ESP32-S3 ST7789V3 SPI + LVGL9](./examples/esp32s3-1.69-tft-240x280-spi-st7789-bringup/)
+- [ESP32-S3 ST7789V3 SPI + LVGL9](./examples/esp32s3-tft-1.69-240x280-spi-st7789-bringup/)
 
 ## Buy
 

@@ -32,7 +32,7 @@ This repository holds materials for the **1.69″ 240×280 TFT (SPI · ST7789)**
 
 The **root README is the navigation page**. Use the table below for a quick scan; open **Full docs** to enter that **part-number folder** under `versions/` (product page, datasheets, and examples live there).
 
-Repo id: `1.69-tft-240x280-spi-st7789`
+Repo id: `tft-1.69-240x280-spi-st7789`
 
 ---
 

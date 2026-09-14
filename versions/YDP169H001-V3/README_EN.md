@@ -31,7 +31,7 @@
 
 OSPTEK **1.69″ 240×280 TFT** is a **SPI** color panel driven by **ST7789V3**. This part number covers the **bare panel** specification.
 
-Spec ID (repository name): `1.69-tft-240x280-spi-st7789`
+Spec ID (repository name): `tft-1.69-240x280-spi-st7789`
 
 Current panel version: **YDP169H001-V3**. Electrical and mechanical details follow [`docs/YDP169H001-V3.pdf`](./docs/YDP169H001-V3.pdf).
 
@@ -51,12 +51,12 @@ Current panel version: **YDP169H001-V3**. Electrical and mechanical details foll
 
 | Description | Path |
 | ---- | ---- |
-| ESP32-S3 · ST7789V3 SPI + LVGL9 | [`examples/esp32s3-1.69-tft-240x280-spi-st7789-bringup/`](./examples/esp32s3-1.69-tft-240x280-spi-st7789-bringup/) |
+| ESP32-S3 · ST7789V3 SPI + LVGL9 | [`examples/esp32s3-tft-1.69-240x280-spi-st7789-bringup/`](./examples/esp32s3-tft-1.69-240x280-spi-st7789-bringup/) |
 
 ## Repository layout
 
 ```text
-1.69-tft-240x280-spi-st7789/                                # repo root (nav: ../../README_EN.md)
+tft-1.69-240x280-spi-st7789/                                # repo root (nav: ../../README_EN.md)
 └── versions/
     └── YDP169H001-V3/                                # full materials for this part number
         ├── README.md
@@ -78,7 +78,7 @@ Current panel version: **YDP169H001-V3**. Electrical and mechanical details foll
 
 ### Samples
 
-- [ESP32-S3 ST7789V3 SPI + LVGL9](./examples/esp32s3-1.69-tft-240x280-spi-st7789-bringup/)
+- [ESP32-S3 ST7789V3 SPI + LVGL9](./examples/esp32s3-tft-1.69-240x280-spi-st7789-bringup/)
 
 ## Buy
 

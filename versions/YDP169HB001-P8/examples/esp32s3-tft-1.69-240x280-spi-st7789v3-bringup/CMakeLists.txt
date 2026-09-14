@@ -3,4 +3,4 @@
 cmake_minimum_required(VERSION 3.16)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(esp32s3-1.69-tft-240x280-spi-st7789v3-bringup)
+project(esp32s3-tft-1.69-240x280-spi-st7789v3-bringup)
