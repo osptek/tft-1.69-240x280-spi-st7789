@@ -6,6 +6,7 @@ panel: tft
 resolution: 240x280
 interface: [spi]
 shape: rect
+corner: rounded
 
 versions:
   - id: YDP169H001-V3
